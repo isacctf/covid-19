@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel= "icon" href="imgs/icone.png">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Patrick+Hand" rel="stylesheet">
+</head>
+<body>
+    <main class = "voltar">
+        <nav>
+          <ul>
+            <li><a href="index.html">Voltar</a></li>
+          </ul>
+        </nav>
+      </main>
+
+      <table class = "tabela" id = "casosBrasil">
+        <tr><th class = "primeiraLinha" colspan="3">Números do Brasil</th></tr>
+        <tr class = "segundalinha">
+          <th>Casos</th>
+          <th>Mortes</th>
+          <th>Recuperados</th>          
+        </tr>
+      </table>
+
+      <table class = "tabela" id = "casosEstados">
+        <tr><th class = "primeiraLinha" colspan="3">Números por Estados</th></tr>
+        <tr class = "segundalinha">
+          <th>Estado</th>
+          <th>Casos</th>
+          <th>Mortes</th>
+        </tr>
+      </table>
+
+      <p>Os dados apresentados nas tabelas acima foram retirados da <a class = "link" href="https://covid19-brazil-api.now.sh/">Covid19 Brazil API</a></p>
+
+      <script src="brasil.js"></script>
+</body>
+</html>
